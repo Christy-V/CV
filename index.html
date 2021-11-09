@@ -1,74 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Christy's Personal Website</title>
-  </head>
-  <body>
-    <table cellspacing = "20">
-      <tr>
-        <td>
-          <image src="images/Christy.png" alt="Christy's Profile Picture" ></image>
-        </td>
-      <td>    
-        <h1>Christy Varghese</h1>
-        <p><em>Assosciate ML Engineer at <strong><a href="https://ignitarium.com/">Ignitarium</a></strong>.</em></p>
-        <p>Young and ambitious engineer learning new things</p>
-      </td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li>B Tech from Cochin University of Science And Technology, CGPA: 8.83</li>
-      <li>12th CBSE, percentage: 92.2</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table>
-      <thead>
-        <tr>
-         <th>Year</th>
-         <th>Experience</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2021</td>
-          <td>Associate Engineer Ignitarium</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing = "10">
-      <tr>
-        <td>
-          <table>
-            <tr>
-              <td>Datascience</td><td> ⭐⭐⭐⭐</td> 
-            </tr>
-            <tr>
-              <td>Deep Learning</td><td> ⭐⭐⭐</td> 
-            </tr>
-            </table>
-        </td>
-        <td>
-          <table>
-          <tr>
-            <td>Web dev</td><td> ⭐⭐</td> 
-          </tr>
-          <tr>
-            <td>Writing</td><td> ⭐⭐⭐</td> 
-          </tr>
-        </table>
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <h3><a href = hobbies.html>My Hobbies</a></h3>
-    <h3><a href = contact.html> Contact Me</a></h3>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christy Varghese</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-container">
+        <img class = "top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Christy</h1>
+        <h2>I am a Data Scientist</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img  src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img src="images/Christy.png" alt="Prof-pic">
+          <h2>Hello.</h2>
+          <p class="intro">Iam a Datascientist. I am an assosciate ML engineer at Ignitarium. I love data ❤</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="skill-image" src="images/machine-learning.png" alt="machine-learning png">
+            <h3>Data Science</h3>
+            <p>I am a young and amdbitious Data Scientist. I started learning about Ai couple of years back. I love playing with data and getting insights from it. I am still learning new things daily improving my skills.</p>
+          </div>
+          <div class="skill-row">
+            <img class="movie" src="https://cdn-icons.flaticon.com/png/512/868/premium/868313.png?token=exp=1636466077~hmac=897691a1f7a14a34e14d52017758c133" alt="movie-png">
+            <h3>Movies</h3>
+            <p>I am a movie buff and tries to watch atleast one good movie per week. I love just to sit and enjoy movies. These movies in different languages connects me closer to different cultures.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>You can always contact me </h3>
+          <p class="contact">I am open for your suggestions on my work. You can also contact me for any thing regarding Data Science</p>
+          <a class="btn" href="3defineme@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
+      
+      
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copy">© 2021 Christy Varghese.</p>
+    </div>
+      
+</body>
 </html>
